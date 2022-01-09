@@ -5,7 +5,8 @@
 * https://github.com/dennybritz/cnn-text-classification-tf
 * https://github.com/Shawn1993/cnn-text-classification-pytorch
 
-## Dependency
+## Requirements
+- There are some general library requirements for the project and some which are specific to individual methods. The general requirements are as follows.
 * python3.8
 * pytorch==1.8.0
 * torchtext==0.9.0
@@ -15,19 +16,21 @@
 ## Word vector
 https://github.com/Embedding/Chinese-Word-Vectors<br>
 * （Here is the trained word word2vec）
-## *1 Analysis data
-Analyze the length of the dataset
+## Analysis data
+- Analyze the length of the dataset
 ```
 python3 analyze_data.py
 ```
-## 用法
+## Start training
 ```
 python3 main.py -h
 ```
 
-## 训练
+## Predict
+- 预测数据库外的句子
+- Predict sentences outside the database
 ```
-python3 main.py
+python3 predict.py
 ```
 
 ## 准确率
