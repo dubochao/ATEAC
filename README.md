@@ -15,9 +15,10 @@
 ## Word vector
 https://github.com/Embedding/Chinese-Word-Vectors<br>
 * （Here is the trained word word2vec）
-## 用法
+## *1 Analysis data
+Analyze the length of the dataset
 ```
-python3 preprocess.py
+python3 analyze_data.py
 ```
 ## 用法
 ```
