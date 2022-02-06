@@ -1,9 +1,9 @@
-# DAWCC Multichannel attention word2vec-CNN for affective analysis of Chinese text
+# DAWCC Multi channel mixed attention CNN for affective analysis of Chinese text
 ## Pytorch for code implementation
 ## Reference resources
-* https://github.com/yoonkim/CNN_sentence
-* https://github.com/dennybritz/cnn-text-classification-tf
-* https://github.com/Shawn1993/cnn-text-classification-pytorch
+* 1.https://github.com/Embedding/Chinese-Word-Vectors
+* 2.http://www.nlpir.org/
+* 3.https://www.ctrip.com/
 
 ## Requirements
 - There are some general library requirements for the project and some which are specific to individual methods. The general requirements are as follows.
