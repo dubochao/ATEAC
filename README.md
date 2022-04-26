@@ -1,11 +1,12 @@
-# DAWCC Multi channel mixed attention CNN for affective analysis of Chinese text
+# 用于方面级情感分析的双层可解释注意力卷积神经网络  
+#A Two-Layer Explainable Attention Convolutional Neural Network for Aspect-Level Sentiment Analysis 
 ## Pytorch for code implementation
 ## Reference resources
 * 1.https://github.com/Embedding/Chinese-Word-Vectors
 * 2.http://www.nlpir.org/
 * 3.https://www.ctrip.com/
 
-## Requirements
+## Requirements 需要配置环境
 - There are some general library requirements for the project and some which are specific to individual methods. The general requirements are as follows.
 * python3.8
 * pytorch==1.8.0
@@ -13,30 +14,32 @@
 * tensorboard==2.6.0
 * jieba==0.42.1
 
-## Word vector
+## Word vector 词向量训练模型采用
 https://github.com/Embedding/Chinese-Word-Vectors<br>
 * （Here is the trained word word2vec）
-## Analysis data
+## Analysis data  数据分析
 - Analyze the length of the dataset
 ```
 python3 analyze_data.py
 ```
-## Start training
+## 数据集划分 
+-  data 文件夹下包含所有数据集 其文件夹下 preprocess.py 是对数据集进行划分
 ```
-python3 main.py -h
+python preprocess.py
+```
+## Start training  
+```
+python3 main.py
 ```
 
 ## Predict
-- 预测数据库外的句子
+- 预测数据库句子
 - Predict sentences outside the database
 ```
 python3 predict.py
 ```
 
-## 准确率
--  CNN-multichannel 使用预训练的静态词向量微调词向量
-```
-python main.py -static=true -non-static=true -multichannel=true
-```
-## 训练 CNN 并将日志保存到 runs 文件夹,要查看日志，只需cmd下运行
+## 本模型和其他对比模型的 训练日志保存到 runs 文件夹,要查看日志，只需cmd进入文件夹下运行下运行
+tensorboard具体操作方法参考 https://tensorflow.google.cn/tensorboard/get_started
 tensorboard --logdir=runs 
+![image](https://user-images.githubusercontent.com/62787127/165257025-047fc667-330f-437a-b5d5-c0321899dd65.png)
