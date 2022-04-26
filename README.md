@@ -45,7 +45,8 @@ python3 predict.py
 * ChnSentiCorp-Htl-unba-10000
 ![image](https://user-images.githubusercontent.com/62787127/165257025-047fc667-330f-437a-b5d5-c0321899dd65.png)
 * online_shopping_10_cats
-![image](https://user-images.githubusercontent.com/62787127/165257665-7ead2986-413a-4c7e-906c-4dbbd777bbcc.png)
+![image](https://user-images.githubusercontent.com/62787127/165259480-56255d21-3966-4a6e-84cc-4149131fff08.png)
+
 ## 训练结果
 
 https://www.kaggle.com/code/zhenhoblngjia/notebook4778ed91b4/edit/run/86791127
