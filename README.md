@@ -40,6 +40,6 @@ python3 predict.py
 ```
 
 ## 本模型和其他对比模型的 训练日志保存到 runs 文件夹,要查看日志，只需cmd进入文件夹下运行下运行
-tensorboard具体操作方法参考 https://tensorflow.google.cn/tensorboard/get_started
-tensorboard --logdir=runs 
+- tensorboard具体操作方法参考 https://tensorflow.google.cn/tensorboard/get_started
+- tensorboard --logdir=runs 
 ![image](https://user-images.githubusercontent.com/62787127/165257025-047fc667-330f-437a-b5d5-c0321899dd65.png)
