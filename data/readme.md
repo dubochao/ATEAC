@@ -7,11 +7,19 @@
   <td>原数据集</td>	<td>1504</td>	<td>1	68</td>	<td>9997</td>
    </tr>
    <tr  align="center">
-  <td>训练集</td>	<td>1504</td>	<td>1</td>	<td>68</td>	<td>8997</td>
+    <td>训练集</td>	
+    <td>1504</td>	
+    <td>1</td>
+    <td>68</td>	
+    <td>8997</td>
   
    </tr>
    <tr  align="center">
-  <td>测试集</td>	<td>1504</td>	<td>3</td>	<td>69</td>	<td>1000</td>
+     <td>测试集</td>	
+     <td>1504</td>	
+     <td>3</td>
+     <td>69</td>	
+     <td>1000</td>
    </tr>
 - * online_shopping_10_cats：此数据集包含10个类别，总计60000多条评论（30000 多条正向评论，30000多条负向评论）。
 <tr  align="center">
