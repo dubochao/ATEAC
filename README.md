@@ -1,5 +1,5 @@
 # 基于双层可解释注意力卷积神经网络的方面级情感分析 
-#A Two-Layer Explainable Attention Convolutional Neural Network for Aspect-Level Sentiment Analysis 
+- A Two-Layer Explainable Attention Convolutional Neural Network for Aspect-Level Sentiment Analysis 
 ## Pytorch for code implementation
 - [gitee代码]( https://gitee.com/dbzstp/ATEAC)
 ## Reference resources
