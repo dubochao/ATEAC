@@ -11,7 +11,8 @@
      <tr  align="center">
          <td>原数据集</td>	
          <td>1504</td>	
-         <td>1	68</td>	
+         <td>1<td>	
+         <td>68</td>	
          <td>9997</td>
        </tr>
    <tr  align="center">
