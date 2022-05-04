@@ -1,22 +1,25 @@
 
 # ChnSentiCorp-Htl-unba-10000：此数据集包含10000 多条酒店评论（7000 多条正向评论，3000 多条负向评论），去除一些不可读的混乱样本后阳性样本和阴性样本分别为6998和2999
-<tr  align="center">
-    <td>数据分割</td>	
-    <td>最大长度</td>	
-    <td>最小长度</td>
-    <td>平均长度</td>	
-    <td>样本数</td>
- </tr>
- <tr  align="center">
-  <td>原数据集</td>	<td>1504</td>	<td>1	68</td>	<td>9997</td>
-   </tr>
+<table align="center">
+    <tr  align="center">
+        <td>数据分割</td>	
+        <td>最大长度</td>	
+        <td>最小长度</td>
+        <td>平均长度</td>	
+        <td>样本数</td>
+     </tr>
+     <tr  align="center">
+         <td>原数据集</td>	
+         <td>1504</td>	
+         <td>1	68</td>	
+         <td>9997</td>
+       </tr>
    <tr  align="center">
     <td>训练集</td>	
     <td>1504</td>	
     <td>1</td>
     <td>68</td>	
     <td>8997</td>
-  
    </tr>
    <tr  align="center">
      <td>测试集</td>	
@@ -25,6 +28,7 @@
      <td>69</td>	
      <td>1000</td>
    </tr>
+  </table>
 - * online_shopping_10_cats：此数据集包含10个类别，总计60000多条评论（30000 多条正向评论，30000多条负向评论）。
 <tr  align="center">
   <td>类别</td>	<td>总数</td>	<td>正例个数</td>	<td>负例个数</td>
